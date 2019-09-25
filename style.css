@@ -1,3 +1,6 @@
+/*
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Source+Sans+Pro&display=swap" rel="stylesheet">
+*/
 h1 {
   font-size:36px;
   color:#33485e;
@@ -9,26 +12,32 @@ body {
   max-width: 800px;
   font-family: 'Rasa', serif;
   text-align: center;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 .Picture {
-  max-width: 10px;
+  max-width: 200px;
   height: auto;
   width: 50%;
 }
 #header{
   border-bottom: 1px solid #33485e;
+  text-align: center;
 }
 h1, h2, h3, h4, h5 {
   font-family: 'Rasa' sans-serif;
 }
-#nav-links ul {
+#nav-links {
   text-align: center;
   list-style-type: none;
-  padding: 0;
+  padding-left: 0;
+  margin: 0 auto;
 }
 #nav-links ul li {
   display: inline-block;
+}
+#nav-links > li:not(:last-child)::after{
+  content:"|";
+  margin: 0;
 }
 .my-title {
   text-align: center;
@@ -47,17 +56,25 @@ h1, h2, h3, h4, h5 {
 }
 .introduction {
   line-height: 2;
+  overflow: auto;
+}
+.introduction img {
+  width: 40%;
+  float: right;
+  margin: 15px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 .center-top-content {
   width: 65%;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   text-align: left;
   list-style-position: inside;
 }
 h2 {
   color: white;
   background-color: #33485e;
-  padding: 10px;
+  padding: 5px;
 }
 h3 {
   font-weight: bold;
