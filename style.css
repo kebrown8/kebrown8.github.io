@@ -1,4 +1,75 @@
 h1 {
   font-size:36px;
   color:#33485e;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+}
+body {
+  max-width: 800px;
+  font-family: 'Rasa', serif;
+  text-align: center;
+  margin: 20px auto;
+.Picture {
+  max-width: 10px;
+  height: auto;
+  width: 50%;
+}
+#header{
+  border-bottom: 1px solid #33485e;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Rasa' sans-serif;
+
+#nav-links ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+#nav-links ul li {
+  display: inline-block;
+}
+.my-title {
+  text-align: center;
+  color: #6a747e;
+  font-style: italic;
+}
+.main-content {
+  width: 80%;
+  margin: 0 auto;
+}
+.highlight {
+  background-color: #33485e;
+  padding: 3px 5px;
+  color: white;
+  font-weight: bold;
+}
+.introduction {
+  line-height: 2;
+}
+.center-top-content {
+  width: 65%;
+  margin: 0 auto;
+  text-align: left;
+  list-style-position: inside;
+}
+h2 {
+  color: white;
+  background-color: #33485e;
+  padding: 10px;
+}
+h3 {
+  font-weight: bold;
+}
+h4 {
+  font-weight: 400;
+}
+h5 {
+  font-weight: 400;
+  font-style: italic;
+}
+.container-experience h3, .container-experience h4, .container-experience h5 {
+    margin: 5px 0;
+}
+.container-experience p {
+  font-size: 14px;
 }
