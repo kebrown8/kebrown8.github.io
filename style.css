@@ -90,3 +90,6 @@ h5 {
 .container-experience p {
   font-size: 14px;
 }
+.italicize {
+  font-style: italic;
+}
