@@ -1,6 +1,3 @@
-/*
-<link href="https://fonts.googleapis.com/css?family=Merriweather|Source+Sans+Pro&display=swap" rel="stylesheet">
-*/
 h1 {
   font-size:36px;
   color:#33485e;
@@ -86,8 +83,9 @@ h5 {
   font-weight: 400;
   font-style: italic;
 }
-.container-experience h3, .container-experience h4, .container-experience h5 {
-    margin: 5px 0;
+.container-experience h2, .container-experience h3, .container-experience h4, .container-experience h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .container-experience p {
   font-size: 14px;
