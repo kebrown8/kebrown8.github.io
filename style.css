@@ -10,6 +10,7 @@ body {
   font-family: 'Rasa', serif;
   text-align: center;
   margin: 20px auto;
+}
 .Picture {
   max-width: 10px;
   height: auto;
@@ -20,11 +21,12 @@ body {
 }
 h1, h2, h3, h4, h5 {
   font-family: 'Rasa' sans-serif;
-
+}
 #nav-links ul {
   text-align: center;
   list-style-type: none;
   padding: 0;
+}
 #nav-links ul li {
   display: inline-block;
 }
