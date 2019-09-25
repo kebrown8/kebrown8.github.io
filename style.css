@@ -8,7 +8,6 @@ h1 {
 body {
   max-width: 800px;
   font-family: 'Rasa', serif;
-  text-align: center;
   margin: 0 auto;
 }
 .Picture {
@@ -29,7 +28,7 @@ h1, h2, h3, h4, h5 {
   padding-left: 0;
   margin: 0 auto;
 }
-#nav-links ul li {
+ul#nav-links li {
   display: inline-block;
 }
 #nav-links > li:not(:last-child)::after{
