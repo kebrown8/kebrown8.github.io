@@ -11,9 +11,8 @@ body {
   margin: 0 auto;
 }
 .Picture {
-  max-width: 200px;
-  height: auto;
-  width: 50%;
+  width: 100%;
+  margin: 20px;
 }
 #header{
   border-bottom: 1px solid #33485e;
@@ -40,7 +39,7 @@ ul#nav-links li {
   color: #6a747e;
   font-style: italic;
 }
-.main-content {
+/* .main-content { */
   width: 80%;
   margin: 0 auto;
 }
@@ -54,7 +53,7 @@ ul#nav-links li {
   line-height: 2;
   overflow: auto;
 }
-.introduction img {
+/* .introduction img { */
   width: 40%;
   float: right;
   margin: 15px;
@@ -91,4 +90,7 @@ h5 {
 }
 .italicize {
   font-style: italic;
+}
+.sidebar {
+    padding-right: 20px;
 }
