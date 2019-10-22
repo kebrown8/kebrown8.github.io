@@ -49,3 +49,10 @@ ul#nav-links li {
 	margin: 20px;
 	float: left;
 }
+.samples {
+	letter-spacing: 2px;
+	text-transform: capitalize;
+	margin: 0 auto;
+	border-bottom: 10px;
+	text-align: center;
+}
