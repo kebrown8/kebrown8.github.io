@@ -35,3 +35,6 @@ ul#nav-links li {
   content:"|";
   margin: 0;
 }
+.container-fluid {
+	background-color: red;
+}
