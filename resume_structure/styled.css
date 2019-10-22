@@ -50,9 +50,19 @@ ul#nav-links li {
 	float: left;
 }
 .samples {
-	letter-spacing: 2px;
-	text-transform: capitalize;
+	letter-spacing: 5px;
+	text-transform: uppercase;
 	margin: 0 auto;
-	border-bottom: 10px;
+	border-bottom: 5px solid red;
 	text-align: center;
+}
+h1 {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.bold {
+	background-color: #33485e;
+  padding: 3px 5px;
+  color: white;
+  font-weight: bold;
 }
