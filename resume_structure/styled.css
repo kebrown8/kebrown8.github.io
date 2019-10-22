@@ -6,3 +6,12 @@
   margin: 0;
   padding: 0;
 }
+.biography {
+	margin: 0;
+	float: right;
+	padding-left: 50px;
+}
+.about {
+	float: right;
+	margin: 0;
+}
