@@ -6,12 +6,17 @@
   margin: 0;
   padding: 0;
 }
-.biography {
+.about {
 	margin: 0;
 	float: right;
 	padding-left: 50px;
 }
-.about {
+.about_me {
+	float: left;
+	margin: 0;
+}
+.about_pic {
 	float: right;
 	margin: 0;
+	padding: 20px;
 }
