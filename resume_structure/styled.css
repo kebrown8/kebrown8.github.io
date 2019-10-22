@@ -38,7 +38,7 @@ ul#nav-links li {
   margin: 0;
 }
 .container-fluid {
-	background-color: red;
+	background-color: #E32800;
 }
 #email {
 	text-align: center;
@@ -53,16 +53,28 @@ ul#nav-links li {
 	letter-spacing: 5px;
 	text-transform: uppercase;
 	margin: 0 auto;
-	border-bottom: 5px solid red;
+	border-bottom: 5px solid #E32800;
 	text-align: center;
 }
 h1 {
 	text-transform: uppercase;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 }
 .bold {
-	background-color: #33485e;
+	background-color: #E32800;
   padding: 3px 5px;
   color: white;
   font-weight: bold;
+}
+.outlet {
+	font-style: italic;
+	font-size: 40px;
+}
+.workpic {
+	width: 100%;
+	margin: 30px;
+}
+.KBpic {
+	width: 100%;
+	margin: 20px;
 }
