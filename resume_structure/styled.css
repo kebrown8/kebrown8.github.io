@@ -30,6 +30,8 @@
 ul#nav-links li {
   display: inline-block;
 	text-align: center;
+	margin: 0 auto;
+	padding-left: 50px;
 }
 #nav-links > li:not(:last-child)::after{
   content:"|";
@@ -37,4 +39,8 @@ ul#nav-links li {
 }
 .container-fluid {
 	background-color: red;
+}
+#email {
+	text-align: center;
+	margin: 0 auto;
 }
