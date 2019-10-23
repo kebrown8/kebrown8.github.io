@@ -1,7 +1,7 @@
 .logo {
 	float: right
 	margin: 5px;
-	width: 100%;
+	width: 25%;
 	height: 75px;
 	background-size: cover;
 }
@@ -84,7 +84,4 @@ h1 {
 	width: 100%;
 	margin: 20px;
 	border: 2px solid #E32800;
-}
-body {
-	font-family: arial;
 }
